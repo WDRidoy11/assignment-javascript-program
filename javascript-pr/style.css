@@ -1,0 +1,37 @@
+* {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.information {
+    display: flex;
+}
+
+input {
+    display: block;
+    width: 500px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 12px 26px;
+    border-radius: 50px;
+    background: #00ffff;
+    color: #ffff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.output {
+    background: #ddd;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
